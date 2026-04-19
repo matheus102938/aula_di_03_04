@@ -3,34 +3,36 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0px;
+    margin: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4; /*cor em hexadecimal*/
+    background-color: whitesmoke; /*cor em hexadecimal*/
     padding: 20px;/*alterei o padding  16/04*/
 }
 header{
-    background-color: #c0c0c0;/*cinza cocô kkkk */
-    color: #ffff; /*branco em hexadecimal*/
+    background-color: #D0E3C4;
+    padding:10px ;
+    color: #503047; /*branco em hexadecimal*/
     text-align: center; /*centraliza o texto*/
+    margin-bottom: 40px;
 }
 nav a{ /*nav navigation a a, de link, vou trabalhar só no link*/
-    color: black;/*alterei a cor 16/04*/
+    color: #D0E3C4;/*alterei a cor 16/04*/
     text-decoration: none; /*tirei toda a decoração do texto*/
     padding: 4px;
     border-top-left-radius:10px ;
     border-top-right-radius:10px ;/*radius é a borda arredondada*/
-    background-color: #cccc;
-    border-bottom-color:#d8d;
+    background-color: rgb(51, 6, 6);
+    border-bottom-color:black;
 }
-nav a:hover{color:red;}
+nav a:hover{color:#C05746;}
 .bloco{ /*declaração de class, a class procede de "." */
-    background-color: #cccc;
-    color: black;
+    background-color: #ADC698;
+    color: #503047;
     border: 1px dotted #a3a3; /*borda geral tracejada*/
     border-radius: 6px;
     padding: 16px;
     margin-bottom: 16px;
-    border-top: 2px solid #d8d; /*borda superior solida*/
+    border-top: 2px solid black; /*borda superior solida*/
 }
 #galeria{ /* # significa id, onde coloca-se por ex.: id="galeria"
     só pode ter 1 com mesmo nome por página*/
@@ -45,7 +47,7 @@ nav a:hover{color:red;}
     background: #ffffff;
     padding: 12px 12px 20px 12px; /*lat dir, esq, baixo e topo*/
     border: 1px solid #dddddd;
-    box-shadow: 0 4px 10px #000000;
+    box-shadow: 0 6px 15px #ADC698;
     width: 220px;/*largura*/
     text-align: center;/*alinhamento ao centro*/
     border-radius: 4px;
@@ -59,11 +61,11 @@ nav a:hover{color:red;}
 }
 .foto:hover{
 transform: scale(1.50)rotate(2deg);
-
+transition-duration: 200ms;
 }
 .legenda{
     margin-top: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto, Open Sans, Montserrat, Lato e Inter';
 font-size: 18px;
 font-style: italic;
 }
